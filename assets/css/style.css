@@ -148,6 +148,10 @@ footer img {
         flex-direction: row;
     }
 
+    section:last-child {
+        flex-direction: column;
+    }
+
     .row-reverse {
         flex-direction: row-reverse;
     }
