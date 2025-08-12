@@ -52,7 +52,7 @@ h2 {
 /* HEADER */
 header {
     height: 60vh;
-    background-image: url('assets/img/Header.png');
+    background-image: url('./assets/img/Header.png');
     background-position: center;
     background-size: cover;
     color: #fff;
