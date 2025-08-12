@@ -97,10 +97,6 @@ section {
     flex-direction: column;
 }
 
-.block {
-    display: block;
-}
-
 section img {
     max-width: 100%;
     margin-bottom: 20px;
@@ -112,6 +108,10 @@ section img {
 
 section h1 {
     margin-bottom: 20px;
+}
+
+section:last-child {
+    align-items: center;
 }
 
 /* FOOTER */
@@ -159,8 +159,6 @@ footer img {
     .container {
         padding: 80px;
     }
-
-
 
     figure {
         width: 60%;
